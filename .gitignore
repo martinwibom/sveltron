@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+public/build/
+.svelte-kit/
+.svelte/
+
+# SvelteKit
+.env
+.env.*
+!.env.example
+
+# Electron
+*.asar
+*.asar.unpacked
+electron-out/
+release/
+out/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Misc
+coverage/
+.idea/
+*.local
+*.swp
+*.swo
